@@ -1,0 +1,15 @@
+192.168.0.10 worker node1
+192.168.0.12 worker node2
+192.168.0.25 worker node3
+192.168.0.28 worker node4
+192.168.0.31 worker node5
+192.168.0.35 master node1
+192.168.0.37 master node2
+192.168.0.39 master node3
+192.168.0.41 master node4
+192.168.0.45 master node5
+192.168.0.50 worker node1
+192.168.0.52 master node2
+192.168.0.55 worker node4
+192.168.0.58 master node3
+192.168.0.60 worker node2
