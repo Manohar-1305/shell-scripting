@@ -1,1 +1,5 @@
 # 21. List Installed Packages
+#!/bin/bash
+dpkg --get-selections | grep -v deinstall
+apt list --installed
+dpkg-query -W -f='${binary:Package}\n'
