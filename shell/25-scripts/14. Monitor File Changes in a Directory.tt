@@ -1,1 +1,3 @@
 #14. Monitor File Changes in a Directory
+#!/bin/bash
+inotifywait -m /path/to/directory -e create -e modify -e delete
