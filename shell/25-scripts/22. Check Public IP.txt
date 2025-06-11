@@ -1,1 +1,3 @@
 # 22. Check Public IP
+#!/bin/bash
+curl -s ifconfig.me
