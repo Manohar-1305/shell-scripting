@@ -1,1 +1,5 @@
 #6. Check HTTP Status Code
+#!/bin/bash
+url="https://example.com"
+status=$(curl -o /dev/null -s -w "%{http_code}\n" "$url")
+echo "HTTP Status Code: $status"
