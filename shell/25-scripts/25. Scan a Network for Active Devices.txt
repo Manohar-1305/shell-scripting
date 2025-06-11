@@ -1,1 +1,8 @@
 # 25. Scan a Network for Active Devices
+
+# sudo apt install nmap -y
+
+#!/bin/bash
+nmap -sn 10.0.1.0/24
+nmap -sS 10.0.1.0/24
+nmap -sV 10.0.1.0/24
