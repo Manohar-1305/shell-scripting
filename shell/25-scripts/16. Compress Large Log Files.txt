@@ -1,1 +1,3 @@
-#16. Compress Large Log Files
+# 16. Compress Large Log Files
+#!/bin/bash
+gzip /var/log/*.log
