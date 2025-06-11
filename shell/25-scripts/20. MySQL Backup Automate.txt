@@ -1,1 +1,3 @@
 # 20. MySQL Backup Automate
+#!/bin/bash
+mysqldump -u root -p my_database > db_backup_$(date +%F).sql
