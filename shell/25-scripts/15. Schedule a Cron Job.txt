@@ -1,1 +1,2 @@
-#15. Schedule a Cron Job
+# 15. Schedule a Cron Job
+echo "* * * * * /home/ubuntu/status.sh" | crontab -
