@@ -1,1 +1,9 @@
-#18. Monitor Active Users
+# 18. Monitor Active Users
+#!/bin/bash
+who
+
+#!/bin/bash
+log_file="/var/log/active_users.log"
+echo "==== $(date) ====" >> "$log_file"
+who >> "$log_file"
+echo "" >> "$log_file"
