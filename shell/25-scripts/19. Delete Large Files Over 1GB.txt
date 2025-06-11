@@ -1,1 +1,9 @@
-#19. Delete Large Files Over 1GB
+# 19. Delete Large Files Over 1GB
+#!/bin/bash
+find / -type f -size +1G -exec rm -i {} \;
+
+# List files greater than 1GB
+find / -type f -size +1G
+
+# Delete file Greater than 1Gb in /var/log
+find /var/log -type f -size +1G -exec rm -i {} \;
