@@ -1,1 +1,7 @@
 #11. Restart a Service if It Fails
+#!/bin/bash
+service="nginx"
+if ! pgrep -x "$service" > /dev/null; then
+    systemctl restart $service
+    echo "$service restarted"
+fi
