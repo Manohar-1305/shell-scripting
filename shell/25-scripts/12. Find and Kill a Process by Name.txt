@@ -1,1 +1,5 @@
 #12. Find and Kill a Process by Name
+#!/bin/bash
+process="nginx"
+pkill -f "$process"
+echo "$process killed"
