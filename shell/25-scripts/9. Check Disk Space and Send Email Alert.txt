@@ -1,1 +1,7 @@
 #9. Check Disk Space and Send Email Alert
+#!/bin/bash
+THRESHOLD=90
+USAGE=$(df -h / | awk 'NR==2 {print $5}' | sed 's/%//')
+if [ "$USAGE" -ge "$THRESHOLD" ]; then
+    echo "Disk space is critically low: $USAGE%" | mail -s "Disk Space Alert" admin@example.com
+fi
