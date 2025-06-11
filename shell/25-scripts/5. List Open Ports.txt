@@ -1,1 +1,3 @@
 # 5. List Open Ports
+#!/bin/bash
+netstat -tulnp
