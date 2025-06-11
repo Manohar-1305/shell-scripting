@@ -1,1 +1,3 @@
 #10. Ping a Server Continuously
+#!/bin/bash
+ping -c 5 google.com
