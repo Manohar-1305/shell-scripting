@@ -1,1 +1,3 @@
-#17. Monitor System Uptime
+# 17. Monitor System Uptime
+#!/bin/bash
+uptime
