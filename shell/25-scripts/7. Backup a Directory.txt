@@ -1,1 +1,4 @@
 #7. Backup a Directory
+
+#!/bin/bash
+tar -czf backup_$(date +%F).tar.gz /home/ubuntu/shell-scripting/shell/25-scripts
