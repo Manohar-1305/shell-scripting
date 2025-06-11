@@ -1,1 +1,13 @@
 # 23. Check System Logs for Errors
+#!/bin/bash
+journalctl -p 3 -xb
+
+#Priority CodeLevel
+#0 emerg
+#1 alert
+#2 crit
+#3 err
+#4 warning
+#5 notice
+#6 info
+#7 debug
